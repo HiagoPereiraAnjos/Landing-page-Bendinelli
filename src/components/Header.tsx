@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Menu, X, Phone, Mail, Clock } from 'lucide-react';
+import { Facebook, Instagram, Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { BendinelliLogo } from './Icons';
@@ -18,8 +18,8 @@ export default function Header() {
   const menuItems = [
     { name: 'Home', href: '#' },
     { name: 'Sobre', href: '#sobre' },
-    { name: 'Serviços', href: '#servicos' },
-    { name: 'Benefícios', href: '#beneficios' },
+    { name: 'ServiÃ§os', href: '#servicos' },
+    { name: 'BenefÃ­cios', href: '#beneficios' },
     { name: 'Depoimentos', href: '#depoimentos' },
     { name: 'Contato', href: '#contato' },
   ];
@@ -32,27 +32,6 @@ export default function Header() {
           : 'bg-white py-4'
       }`}
     >
-      {/* Top Bar - Hidden on Scroll or Mobile */}
-      <div className={`bg-slate-900 text-white transition-all duration-300 overflow-hidden ${
-        isScrolled ? 'h-0' : 'h-10 hidden md:block'
-      }`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex justify-between items-center text-xs font-medium">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <Phone size={14} className="text-blue-400" />
-              <span>(11) 95772-6055</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Mail size={14} className="text-blue-400" />
-              <span>atendimento.bendinelli@gmail.com</span>
-            </div>
-          </div>
-          <div className="flex items-center space-x-2">
-            <Clock size={14} className="text-blue-400" />
-            <span>Seg - Sex: 09h às 18h</span>
-          </div>
-        </div>
-      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
