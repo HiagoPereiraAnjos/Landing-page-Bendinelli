@@ -1,4 +1,4 @@
-import { CheckCircle2 } from 'lucide-react';
+﻿import { CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export default function About() {
@@ -62,3 +62,4 @@ export default function About() {
     </section>
   );
 }
+

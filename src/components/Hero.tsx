@@ -1,4 +1,4 @@
-import { ArrowRight, ShieldCheck, Star, TrendingDown } from 'lucide-react';
+﻿import { ArrowRight, ShieldCheck, Star, TrendingDown } from 'lucide-react';
 import { motion } from 'motion/react';
 import { WhatsAppLogo } from './Icons';
 
@@ -159,3 +159,4 @@ export default function Hero() {
     </section>
   );
 }
+

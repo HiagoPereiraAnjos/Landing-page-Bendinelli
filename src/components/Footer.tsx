@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
+﻿import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
 import { BendinelliLogo } from './Icons';
 
 export default function Footer() {
@@ -64,3 +64,4 @@ export default function Footer() {
     </footer>
   );
 }
+

@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Menu, X } from 'lucide-react';
+﻿import { Facebook, Instagram, Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { BendinelliLogo } from './Icons';
@@ -18,8 +18,8 @@ export default function Header() {
   const menuItems = [
     { name: 'Home', href: '#' },
     { name: 'Sobre', href: '#sobre' },
-    { name: 'ServiÃ§os', href: '#servicos' },
-    { name: 'BenefÃ­cios', href: '#beneficios' },
+    { name: 'Serviços', href: '#servicos' },
+    { name: 'Benefícios', href: '#beneficios' },
     { name: 'Depoimentos', href: '#depoimentos' },
     { name: 'Contato', href: '#contato' },
   ];

@@ -1,4 +1,4 @@
-import { Quote, Star } from 'lucide-react';
+﻿import { Quote, Star } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const testimonials = [
@@ -68,3 +68,4 @@ export default function Testimonials() {
     </section>
   );
 }
+

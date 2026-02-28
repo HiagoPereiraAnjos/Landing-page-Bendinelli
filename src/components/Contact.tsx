@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Send } from 'lucide-react';
+﻿import { Phone, Mail, MapPin, Send } from 'lucide-react';
 import { motion } from 'motion/react';
 import { WhatsAppLogo } from './Icons';
 
@@ -141,3 +141,4 @@ export default function Contact() {
     </section>
   );
 }
+

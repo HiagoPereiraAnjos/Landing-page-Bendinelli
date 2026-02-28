@@ -1,4 +1,4 @@
-import { 
+﻿import { 
   TrendingDown, 
   ShieldCheck, 
   Zap, 
@@ -104,3 +104,4 @@ export default function Benefits() {
     </section>
   );
 }
+

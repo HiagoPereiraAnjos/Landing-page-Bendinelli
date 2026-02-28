@@ -1,4 +1,4 @@
-import { WhatsAppLogo } from './Icons';
+﻿import { WhatsAppLogo } from './Icons';
 
 export default function WhatsAppButton() {
   const phoneNumber = '5511957726055';
@@ -20,3 +20,4 @@ export default function WhatsAppButton() {
     </a>
   );
 }
+
